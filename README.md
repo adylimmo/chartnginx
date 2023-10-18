@@ -17,5 +17,7 @@ helm install apps-nginx-chart /home/chartnginx -f values.yaml
 
 
 cd /home
+
 git clone https://github.com/adylimmo/chartnginx.git
+
 helm install nginx-helm-github /home/chartnginx -f values.yaml
